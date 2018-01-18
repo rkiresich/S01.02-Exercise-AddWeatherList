@@ -31,9 +31,33 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forecast);
 
         // TODO (2) Use findViewById to get a reference to the weather display TextView
+        //COMPLETE
+        weatherTextView = (TextView) findViewById(R.id.tv_weather_data);
 
         // TODO (3) Create an array of Strings that contain fake weather data
+        //COMPLETE
+        String [] fakeWeaterData = {
+                "Wednesday, January 17, 2018; hi: 48; lo: 23; Sunny",
+                "Thursday, January 18, 2018; hi: 64; lo: 43; Sunny",
+                "Friday, January 19, 2018; hi: 60; lo: 40; Cloudy",
+                "Saturday, January 20, 2018; hi: 55; lo: 35; Flurry",
+                "Sunday, January 21, 2018; hi: 43; lo: 15; Snow",
+                "Monday, January 22, 2018; hi: 48; lo: 30; Cloudy",
+                "Tuesday, January 23, 2018; hi: 46; lo: 26; Cloudy",
+                "Wednesday, January 24, 2018; hi: 59; lo: 39; Sunny",
+                "Thursday, January 25, 2018; hi: 68; lo: 50; Sunny",
+                "Friday, January 26, 2018; hi: 59; lo: 40; Cloudy",
+                "Saturday, January 26, 2018; hi: 55; lo: 35; Flurry",
+                "Sunday, January 28, 2018; hi: 63; lo: 45; Sunny",
+                "Monday, January 29, 2018; hi: 58; lo: 40; Sunny",
+                "Tuesday, January 30, 2018; hi: 46; lo: 26; Cloudy"
+        };
 
         // TODO (4) Append each String from the fake weather data array to the TextView
+        //COMPLETE
+        for (String fakeDay: fakeWeaterData
+             ) {
+            weatherTextView.append(fakeDay + "\n\n\n");
+        }
     }
 }
