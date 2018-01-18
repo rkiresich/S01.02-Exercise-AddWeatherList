@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 "Wednesday, January 24, 2018; hi: 59; lo: 39; Sunny",
                 "Thursday, January 25, 2018; hi: 68; lo: 50; Sunny",
                 "Friday, January 26, 2018; hi: 59; lo: 40; Cloudy",
-                "Saturday, January 26, 2018; hi: 55; lo: 35; Flurry",
+                "Saturday, January 27, 2018; hi: 55; lo: 35; Flurry",
                 "Sunday, January 28, 2018; hi: 63; lo: 45; Sunny",
                 "Monday, January 29, 2018; hi: 58; lo: 40; Sunny",
                 "Tuesday, January 30, 2018; hi: 46; lo: 26; Cloudy"
